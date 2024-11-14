@@ -1,0 +1,18 @@
+connectors:
+  matrix:
+    # Required
+    mxid: "@bot_finglish2persian:bot.parsi.ai"
+    password: "MASM14032024"
+    rooms:
+      'main': '#NLP_HW2:bot.parsi.ai'
+    # Optional
+    homeserver: "https://bot.parsi.ai"
+    enable_encryption: True
+
+skills:
+  test:
+    path: ./test.py
+  accept_invite:
+    path: ./accept_invite.py
+  help:
+    path: ./help.py
